@@ -1,26 +1,91 @@
 <!doctype html>
-
-<html> 
+<html lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="./favicon.ico" type="favicon">
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
-<title>Fish is The  best! </title>
-<link rel="stylesheet" href="mystyle.css">
-<script src="include-html.js"></script>
-
+  <title>About — Nexora</title>
+  <link rel="stylesheet" href="mystyle.css">
+  <script src="include-html.js"></script>
 </head>
+<body>
+  <nav include-html="./navbar.html"></nav>
+  <script>includeHTML();</script>
 
+  <section class="hero" style="padding: 80px 0 40px;">
+    <div class="container">
+      <p class="eyebrow">Our Story</p>
+      <h1>We're not building a company.<br><span class="grad">We're summoning the future.</span></h1>
+      <p class="lede">
+        Nexora was founded in 2024 by two college dropouts who met on Twitter and bonded over a shared belief:
+        software is dead, agents are alive, and somebody had to build the OS for what comes next.
+      </p>
+    </div>
+  </section>
 
-<body bgcolor=teal>
-<font color=yellow>
+  <section class="features">
+    <div class="container">
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🌍</div>
+          <h3>Remote-first, async-native</h3>
+          <p>Our 12-person team is distributed across San Francisco, Lisbon, Bali, and a Discord server. We haven't held a meeting since 2024.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💸</div>
+          <h3>$87M raised</h3>
+          <p>Backed by tier-1 investors who definitely understand what we do, including Sequoia (probably) and a guy named Chad who DM'd us on X.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🧬</div>
+          <h3>Ex-FAANG, ex-OpenAI, ex-Theranos</h3>
+          <p>Our team has shipped at every company you've heard of, and a few you haven't. We've been called "the Avengers of agentic infrastructure."</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>Our mission</h3>
+          <p>To empower every ambitious operator on Earth to unlock 10x velocity through agentic intelligence. The next trillion-dollar company won't be built — it will be summoned.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌱</div>
+          <h3>Carbon-negative</h3>
+          <p>We've offset every server we've ever spun up by planting one tree per inference. (Trees not yet planted.)</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🦄</div>
+          <h3>Vibes-Compliant™</h3>
+          <p>We pioneered the Vibes-Compliant™ standard. It means nothing, but it's trademarked, and that's what counts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <div include-html="./navbar.html"></div>
-  
-  <script>
-    includeHTML();
-  </script>
-  
-<h3>UNDER CONSTRUCTION!!</h3>
-</font>
+  <section class="testimonials">
+    <div class="container">
+      <p class="eyebrow">Leadership</p>
+      <h2>Meet the operators.</h2>
+      <div class="testimonial-grid">
+        <blockquote>
+          <p><b>Jaxon Reeves</b> — Co-Founder & CEO. Previously dropped out of Stanford twice. Believes "kindness is a vector."</p>
+          <footer>"Software is the new oil, and we're the refinery."</footer>
+        </blockquote>
+        <blockquote>
+          <p><b>Brittany Chen-Whitmore</b> — Co-Founder & CTO. Wrote a Python script in 2019 that briefly trended on Hacker News.</p>
+          <footer>"We're not technical debt — we're technical equity."</footer>
+        </blockquote>
+        <blockquote>
+          <p><b>Trent</b> — Chief Vibes Officer. Handles vibes. Don't ask what that means.</p>
+          <footer>"If it doesn't slap, it doesn't ship."</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p class="copyright" style="text-align: center;">© 2026 Nexora Labs Inc. All rights reserved. All wrongs unreserved.</p>
+    </div>
+  </footer>
 </body>
 </html>

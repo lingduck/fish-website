@@ -1,83 +1,98 @@
 <!doctype html>
-
-<html> 
+<html lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="./favicon.ico" type="favicon">
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
-<title>Fish is The  best! </title>
-<link rel="stylesheet" href="mystyle.css">
-<script src="include-html.js"></script>
-
+  <title>Docs — Nexora</title>
+  <link rel="stylesheet" href="mystyle.css">
+  <script src="include-html.js"></script>
 </head>
-
-
-<body bgcolor=teal>
-<font color=yellow>
-
+<body>
   <nav include-html="./navbar.html"></nav>
-  
-  <script>
-    includeHTML();
-  </script>
+  <script>includeHTML();</script>
 
+  <section class="hero" style="padding: 80px 0 40px;">
+    <div class="container">
+      <p class="eyebrow">Documentation</p>
+      <h1>Everything you need to <span class="grad">ship faster</span>.</h1>
+      <p class="lede">
+        Comprehensive, AI-generated, mostly accurate docs for the Nexora platform. Updated quarterly,
+        whether they need it or not.
+      </p>
+    </div>
+  </section>
 
-<h1>Contributions!</h1>
-<p> <b>LingDuck-Maker
- <br> Kappa C0dex - Helper on DnS and upload.
- <br> sarwan - helped on cloudflare etc
- <br> nate - helped on setting up cloudflare. </b>
+  <section class="features">
+    <div class="container">
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🚀</div>
+          <h3>Getting Started</h3>
+          <p>
+            <a href="#">Quickstart Guide (47 minutes)</a><br>
+            <a href="#">"Hello World" Tutorial (PhD required)</a><br>
+            <a href="#">SDK Reference (under construction since 2024)</a>
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔌</div>
+          <h3>Integrations</h3>
+          <p>
+            <a href="#">Slack</a> · <a href="#">Notion</a> · <a href="#">Linear</a><br>
+            <a href="#">Google Workspace</a> · <a href="#">Salesforce</a><br>
+            <a href="#">Your group chat</a> · <a href="#">Toaster (beta)</a>
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>Trust & Compliance</h3>
+          <p>
+            SOC 2 Type 9 ✓<br>
+            ISO 27001 ✓<br>
+            HIPAA-adjacent ✓<br>
+            Vibes-Compliant™ ✓
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📡</div>
+          <h3>API Reference</h3>
+          <p>
+            <a href="#">REST API</a> (deprecated)<br>
+            <a href="#">GraphQL API</a> (also deprecated)<br>
+            <a href="#">gRPC API</a> (the cool one)<br>
+            <a href="#">Vibe API</a> (preview)
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3>Community</h3>
+          <p>
+            <a href="#">Discord</a> — 47k members, 3 active<br>
+            <a href="#">GitHub</a> — 1 star (it's our CEO)<br>
+            <a href="#">X / Twitter</a> — mostly bots<br>
+            <a href="#">Office Hours</a> — held in the metaverse
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📚</div>
+          <h3>Whitepapers</h3>
+          <p>
+            <a href="#">"The Agentic Singularity" (47 pages)</a><br>
+            <a href="#">"Why JSON Is Dead" (controversial)</a><br>
+            <a href="#">"$NEX Tokenomics v3.2"</a><br>
+            <a href="#">"A Manifesto" (untitled)</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-</p>
-         </ul>
-        
-                  <p> Current sources 
-            <br>
-            <a target="_blank"href=https://forum.americanexpedition.us/largemouth-bass-information-facts-photos-and-artwork>
-            bass fish info source </a>
-            <br>
-            <a target="_blank"href=https://www.calories.info/food/fish-seafood>
-            calories info source </a>
-            <br>
-            <a target="_blank"href="https://wwf.ca/2015/03/19/did-you-know-10-amazing-things-about-salmon/">
-            salmon info source </a>
-            <br>
-            <a target="_blank"href=https://www.nationalgeographic.org/media/anthias-wbt>
-              anthias Fish info source 1 </a>
-              <br>
-              <a target="_blank"href=https://en.wikipedia.org/wiki/Anthias_anthias>
-                anthias Fish info source 2 </a>
-            <br>
-            <a target="_blank"href=https://www.mentalfloss.com/article/63719/20-freaky-facts-about-giant-squid>
-           Giant squid info source 1 </a>
-           <br>
-		  <a target="_blank"href=https://en.wikipedia.org/wiki/Colossal_squid>
-           Giant squid info source 2</a> <br>
-           <a href=https://en.wikipedia.org/wiki/Tuna>
-            tuna info source 1  </a> <br>
-            <a target="_blank"href=https://www.softschools.com/facts/animals/tuna_facts/303>
-              tuna info source 2</a>
-              <br>
-              <a target="_blank"href=https://animaldiversity.org/accounts/Synchiropus_splendidus>
-                Mandarinfish info source </a>
-                <br>
-                  <a target="_blank"href=https://www.twofishdivers.com/2019/05/mandarin-fish-facts-indonesia>
-                Mandarinfish info source 2 </a>
-                <br>
-                <a target="_blank"href=https://puregoldfish.com/facts>
-                  Goldfish info source 1 </a>
-                  <br>
-                  <a target="_blank"href=https://en.wikipedia.org/wiki/Goldfish>
-                    Goldfish info source 2 </a> <br>
-                    <a href=https://en.wikipedia.org/wiki/Tetraodontidae>
-                      pufferfish info source 1 </a>
-                      <br>
-                      <a target="_blank"href=https://en.wikipedia.org/wiki/Tetraodontidae>
-                        pufferfish info source 2 </a>
-           
-                  </p>
-    
-			
-
-</font>
+  <footer>
+    <div class="container">
+      <p class="copyright" style="text-align: center;">© 2026 Nexora Labs Inc.</p>
+    </div>
+  </footer>
 </body>
 </html>
