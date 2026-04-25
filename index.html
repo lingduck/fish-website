@@ -11,8 +11,13 @@
 </head>
 
 <body>
+  <div class="scroll-progress"></div>
+
   <div class="announcement-bar">
-    <span>🎉 We just closed our $87M Series A. Led by a guy who DM'd us on X. <a href="#">Read the press release →</a></span>
+    <div class="marquee">
+      <span>🎉 We just closed our $87M Series A &nbsp;·&nbsp; Backed by Sequoia, a16z, and a guy named Chad &nbsp;·&nbsp; ✨ Featured in TechCrunch (allegedly) ✨ &nbsp;·&nbsp; 🚀 #1 on Product Hunt (one Tuesday in 2024) &nbsp;·&nbsp; 🧠 Now powered by GPT-5, Claude 4, and a Magic 8-Ball &nbsp;·&nbsp;</span>
+      <span>🎉 We just closed our $87M Series A &nbsp;·&nbsp; Backed by Sequoia, a16z, and a guy named Chad &nbsp;·&nbsp; ✨ Featured in TechCrunch (allegedly) ✨ &nbsp;·&nbsp; 🚀 #1 on Product Hunt (one Tuesday in 2024) &nbsp;·&nbsp; 🧠 Now powered by GPT-5, Claude 4, and a Magic 8-Ball &nbsp;·&nbsp;</span>
+    </div>
   </div>
 
   <nav include-html="./navbar.html"></nav>
@@ -20,38 +25,64 @@
 
   <!-- HERO -->
   <section class="hero">
-    <div class="hero-bg"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="grid-bg"></div>
+
     <div class="container">
-      <div class="badge">✨ Now powered by Quantum AI™ and a custom-trained LLM ✨</div>
+      <div class="badge"><span class="pulse-dot"></span> Now powered by Quantum AI™ &nbsp;·&nbsp; ✨ Try it free</div>
       <h1>The <span class="grad">agentic operating system</span><br>for the age of intelligence.</h1>
       <p class="lede">
-        Nexora is the only end-to-end, cloud-native, AI-first orchestration platform
-        that empowers high-performance teams to unlock 10x velocity through hyper-personalized
-        agentic workflows. We're not building software. We're building the future.
+        Nexora is the only end-to-end, cloud-native, AI-first orchestration mesh that empowers
+        high-velocity teams to unlock 10x output through hyper-personalized agentic workflows.
+        We're not building software — we're <em>summoning</em> it.
       </p>
       <div class="cta-row">
-        <a href="#pricing" class="cta-primary">Start Free — Setup in 30 Seconds</a>
+        <a href="#" class="cta-primary" onclick="event.preventDefault(); alert('Sign up coming soon ✨');">Start Free — Setup in 30 Seconds ✨</a>
         <a href="#demo" class="cta-secondary">▶ Watch the 90-Second Demo</a>
       </div>
-      <p class="micro">⭐⭐⭐⭐⭐ &nbsp;Loved by 500,000+ operators. SOC 2 Type 9. ISO 27001. HIPAA. Vibes-Compliant.</p>
+      <div class="trust-row">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <span>4.97 from 12,000+ operators</span>
+        <span class="dot-sep">•</span>
+        <span>SOC 2 Type 9</span>
+        <span class="dot-sep">•</span>
+        <span>HIPAA</span>
+        <span class="dot-sep">•</span>
+        <span>Vibes-Compliant™</span>
+      </div>
     </div>
   </section>
 
-  <!-- LOGO WALL -->
+  <!-- LOGO MARQUEE -->
   <section class="logo-wall">
-    <p class="eyebrow">Trusted by the teams shipping the future</p>
-    <div class="logos">
-      <span>NORTHWIND</span>
-      <span>HYPERLAYER</span>
-      <span>Lumen.AI</span>
-      <span>Stacked</span>
-      <span>Velocity Co.</span>
-      <span>Cipher Labs</span>
-      <span>Y Combinarrow</span>
+    <p class="eyebrow">Trusted by the teams shaping the future</p>
+    <div class="logo-marquee">
+      <div class="logo-track">
+        <span>NORTHWIND</span>
+        <span>HYPERLAYER</span>
+        <span>Lumen.AI</span>
+        <span>Stacked</span>
+        <span>Velocity Co.</span>
+        <span>Cipher Labs</span>
+        <span>Y Combinarrow</span>
+        <span>QUANTUMLY</span>
+        <span>Frizzbase</span>
+        <span>NORTHWIND</span>
+        <span>HYPERLAYER</span>
+        <span>Lumen.AI</span>
+        <span>Stacked</span>
+        <span>Velocity Co.</span>
+        <span>Cipher Labs</span>
+        <span>Y Combinarrow</span>
+        <span>QUANTUMLY</span>
+        <span>Frizzbase</span>
+      </div>
     </div>
   </section>
 
-  <!-- VALUE PROPS -->
+  <!-- BENTO FEATURES -->
   <section class="features" id="features">
     <div class="container">
       <p class="eyebrow">The Platform</p>
@@ -61,36 +92,51 @@
         edge-deployed, agent-native control plane your CTO will actually love.
       </p>
 
-      <div class="feature-grid">
-        <div class="feature-card">
+      <div class="bento">
+        <div class="bento-card big">
+          <div class="bento-glow"></div>
           <div class="feature-icon">🧠</div>
           <h3>Agentic Reasoning Engine</h3>
-          <p>Our proprietary multi-modal LLM stack reasons across your entire context graph in real time. It thinks, so you don't have to.</p>
+          <p>Our proprietary multi-modal LLM stack reasons across your entire context graph in real time. It thinks, so you don't have to. Trained on 4.2 trillion tokens, fine-tuned on vibes.</p>
+          <div class="bento-tag">Flagship</div>
         </div>
-        <div class="feature-card">
+
+        <div class="bento-card">
           <div class="feature-icon">⚡</div>
           <h3>Edge-Native Compute</h3>
-          <p>Sub-millisecond inference at the edge of every device. We run our model on your toaster. Don't ask how.</p>
+          <p>Sub-millisecond inference at the edge of every device. We run our model on your toaster.</p>
         </div>
-        <div class="feature-card">
+
+        <div class="bento-card">
           <div class="feature-icon">⛓️</div>
-          <h3>On-Chain Workflow Provenance</h3>
-          <p>Every action, every decision, every Slack reaction — immutably notarized on our L3 zk-rollup. Compliance, simplified.</p>
+          <h3>On-Chain Provenance</h3>
+          <p>Every action immutably notarized on our L3 zk-rollup. Audit logs that double as NFTs.</p>
         </div>
-        <div class="feature-card">
+
+        <div class="bento-card wide">
           <div class="feature-icon">🔒</div>
-          <h3>Zero-Trust Architecture</h3>
-          <p>Quantum-resistant encryption secures every byte. Even we can't see your data. (Mostly.)</p>
+          <h3>Zero-Trust, Quantum-Resistant Architecture</h3>
+          <p>Post-quantum encryption secures every byte across every gill — sorry, every endpoint. Even we can't read your data. (Mostly.) Built by ex-NSA, ex-Apple, ex-OpenAI cryptographers.</p>
         </div>
-        <div class="feature-card">
+
+        <div class="bento-card">
           <div class="feature-icon">📈</div>
-          <h3>10x Velocity, Out of the Box</h3>
-          <p>Customers report a 1,400% increase in synergistic alignment KPIs within 7 minutes of onboarding. Anecdotally.</p>
+          <h3>10x Velocity</h3>
+          <p>Customers report 1,400% velocity gains within 7 minutes. Anecdotally.</p>
         </div>
-        <div class="feature-card">
+
+        <div class="bento-card">
           <div class="feature-icon">🌐</div>
-          <h3>Open-Source Core (sort of)</h3>
-          <p>Our wrapper around `console.log` is MIT licensed. Everything that matters is behind the Enterprise paywall.</p>
+          <h3>Open-Source Core</h3>
+          <p>Our wrapper around <code>console.log</code> is MIT licensed. Everything else is Enterprise.</p>
+        </div>
+
+        <div class="bento-card big alt">
+          <div class="bento-glow"></div>
+          <div class="feature-icon">✨</div>
+          <h3>Vibes Engine™</h3>
+          <p>The only orchestration platform with native support for vibes. Our proprietary VQS (Vibe Quality Score) ensures every workflow is properly aligned with your team's energy. Patent pending.</p>
+          <div class="bento-tag">Beta</div>
         </div>
       </div>
     </div>
@@ -99,9 +145,9 @@
   <!-- STATS -->
   <section class="stats">
     <div class="container">
-      <div class="stat"><div class="num">99.997%</div><div class="lbl">Uptime SLA*</div></div>
-      <div class="stat"><div class="num">14.2B</div><div class="lbl">Tokens processed daily</div></div>
-      <div class="stat"><div class="num">$0</div><div class="lbl">Revenue (we're disrupting that)</div></div>
+      <div class="stat"><div class="num" data-target="99.997" data-suffix="%">0%</div><div class="lbl">Uptime SLA*</div></div>
+      <div class="stat"><div class="num" data-target="14.2" data-suffix="B">0</div><div class="lbl">Tokens / day</div></div>
+      <div class="stat"><div class="num" data-target="500" data-suffix="K+">0</div><div class="lbl">Operators onboard</div></div>
       <div class="stat"><div class="num">∞</div><div class="lbl">Total addressable market</div></div>
     </div>
   </section>
@@ -117,8 +163,9 @@
           <li>✅ Native integrations with Slack, Notion, Linear, and your group chat</li>
           <li>✅ One-click deploy to AWS, GCP, Azure, and the metaverse</li>
           <li>✅ Built by ex-Stripe, ex-OpenAI, ex-Theranos engineers</li>
+          <li>✅ Generates pitch decks while you sleep</li>
         </ul>
-        <a href="#pricing" class="cta-primary">Book a 30-Minute Discovery Call</a>
+        <a href="#" class="cta-primary" onclick="event.preventDefault(); alert('Sign up coming soon ✨');">Book a 30-Minute Discovery Call →</a>
       </div>
       <div class="showcase-img">
         <div class="mock-dashboard">
@@ -128,7 +175,16 @@
             <div class="mock-row"><span>🧠 Agents Active</span><span class="mock-num">142</span></div>
             <div class="mock-row"><span>💸 Cost Saved</span><span class="mock-num">$2.4M</span></div>
             <div class="mock-row"><span>✨ Vibes Aligned</span><span class="mock-num">99.9%</span></div>
-            <div class="mock-chart"></div>
+            <div class="mock-bars">
+              <div class="bar" style="--h:40%"></div>
+              <div class="bar" style="--h:65%"></div>
+              <div class="bar" style="--h:35%"></div>
+              <div class="bar" style="--h:80%"></div>
+              <div class="bar" style="--h:55%"></div>
+              <div class="bar" style="--h:90%"></div>
+              <div class="bar" style="--h:70%"></div>
+              <div class="bar" style="--h:100%"></div>
+            </div>
           </div>
         </div>
         <div class="showcase-caption">↑ A real customer dashboard (lightly fictionalized)</div>
@@ -143,16 +199,25 @@
       <h2>Don't take it from us.</h2>
       <div class="testimonial-grid">
         <blockquote>
-          <p>"Nexora is, without exaggeration, the most important platform since fire. Our team is now 12x more aligned."</p>
-          <footer>— Jaxon Reeves, VP of Synergy, Northwind</footer>
+          <p>"Nexora is, without exaggeration, the most important platform since fire. Our team is now 12x more aligned, whatever that means."</p>
+          <footer>
+            <div class="avatar a1"></div>
+            <div><b>Jaxon Reeves</b><br><span>VP of Synergy, Northwind</span></div>
+          </footer>
         </blockquote>
         <blockquote>
-          <p>"We replaced our entire ops org with three Nexora seats and a custom GPT. ROI was achieved before lunch."</p>
-          <footer>— Brittany Chen-Whitmore, Chief Vibes Officer, Hyperlayer</footer>
+          <p>"We replaced our entire ops org with three Nexora seats and a custom GPT. ROI achieved before lunch."</p>
+          <footer>
+            <div class="avatar a2"></div>
+            <div><b>Brittany Chen-Whitmore</b><br><span>Chief Vibes Officer, Hyperlayer</span></div>
+          </footer>
         </blockquote>
         <blockquote>
-          <p>"I'm not technical but my CTO cried. In a good way."</p>
-          <footer>— Greg, Founder, stealth-mode unicorn</footer>
+          <p>"I'm not technical, but my CTO cried. In a good way. We've since pivoted three times."</p>
+          <footer>
+            <div class="avatar a3"></div>
+            <div><b>Greg</b><br><span>Founder, stealth-mode unicorn</span></div>
+          </footer>
         </blockquote>
       </div>
     </div>
@@ -163,65 +228,106 @@
     <div class="container">
       <p class="eyebrow">Pricing</p>
       <h2>Plans that scale with your <span class="grad">ambition</span>.</h2>
+
+      <div class="billing-toggle">
+        <span>Monthly</span>
+        <label class="switch">
+          <input type="checkbox" id="billing-toggle" checked>
+          <span class="slider"></span>
+        </label>
+        <span>Annual <em>(save 20% — somehow)</em></span>
+      </div>
+
       <div class="pricing-grid">
         <div class="plan">
           <h3>Hustler</h3>
-          <div class="price">$0<span>/mo</span></div>
+          <div class="price"><span class="amt" data-monthly="$0" data-annual="$0">$0</span><span>/mo</span></div>
           <p class="plan-tag">For solo founders & side-project lifers</p>
           <ul>
             <li>✓ Up to 3 agents</li>
             <li>✓ Community support (Discord)</li>
             <li>✓ Watermarked outputs</li>
-            <li>✗ Blockchain features</li>
+            <li class="x">✗ Blockchain features</li>
+            <li class="x">✗ Vibes Engine™</li>
           </ul>
-          <a href="#" class="cta-secondary">Start free</a>
+          <a href="#" class="cta-secondary" onclick="event.preventDefault(); alert('Sign up coming soon ✨');">Start free</a>
         </div>
+
         <div class="plan featured">
           <div class="featured-tag">Most Popular 🔥</div>
           <h3>Operator</h3>
-          <div class="price">$499<span>/mo</span></div>
+          <div class="price"><span class="amt" data-monthly="$499" data-annual="$399">$399</span><span>/mo</span></div>
           <p class="plan-tag">For high-velocity teams shipping daily</p>
           <ul>
             <li>✓ Unlimited agents*</li>
             <li>✓ AI co-pilot (frontier model)</li>
             <li>✓ NFT minting per workflow</li>
-            <li>✓ 24/5 priority Slack channel</li>
+            <li>✓ Vibes Engine™ (beta)</li>
+            <li>✓ 24/5 priority Slack</li>
           </ul>
-          <a href="#" class="cta-primary">Start 14-day trial</a>
+          <a href="#" class="cta-primary" onclick="event.preventDefault(); alert('Sign up coming soon ✨');">Start 14-day trial</a>
           <p class="fineprint">*fair use applies (max 14 agents)</p>
         </div>
+
         <div class="plan">
           <h3>Enterprise</h3>
-          <div class="price">Let's chat<span></span></div>
+          <div class="price"><span class="amt">Let's chat</span></div>
           <p class="plan-tag">For Fortune 500s & sovereign nations</p>
           <ul>
             <li>✓ Dedicated CSM & solutions architect</li>
             <li>✓ Custom-trained model on your data</li>
             <li>✓ SSO, SCIM, SOC 2, vibes</li>
-            <li>✓ Hand-delivered onboarding</li>
+            <li>✓ White-glove onboarding</li>
+            <li>✓ A handwritten thank-you note</li>
           </ul>
-          <a href="#" class="cta-secondary">Talk to sales</a>
+          <a href="./suggest" class="cta-secondary">Talk to sales</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- FAKE AI CHAT -->
-  <section class="ai-chat">
+  <!-- FAQ -->
+  <section class="faq">
+    <div class="container" style="max-width: 760px;">
+      <p class="eyebrow">FAQ</p>
+      <h2>Questions, <span class="grad">answered</span>.</h2>
+
+      <details>
+        <summary>What does Nexora actually do?</summary>
+        <p>Nexora is a vertically-integrated, horizontally-scalable, agent-orchestration mesh that abstracts complexity into delight. We empower. We accelerate. We transform.</p>
+      </details>
+      <details>
+        <summary>Yeah but what does it <em>do</em>?</summary>
+        <p>Have you considered booking a discovery call?</p>
+      </details>
+      <details>
+        <summary>Is this a wrapper around GPT?</summary>
+        <p>Absolutely not. It's a wrapper around several frontier models, plus some custom prompts in a Notion doc, plus Vibes Engine™.</p>
+      </details>
+      <details>
+        <summary>Do you have a free trial?</summary>
+        <p>Yes! 14 days, no credit card required. Just sign up and— oh. (Sign-up coming soon. ✨)</p>
+      </details>
+      <details>
+        <summary>Are you hiring?</summary>
+        <p>We're hiring 12 cofounders. Equity only. Must "love the grind."</p>
+      </details>
+      <details>
+        <summary>Is $NEX a real token?</summary>
+        <p>Define "real."</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- BIG CTA -->
+  <section class="big-cta">
+    <div class="orb orb-cta-1"></div>
+    <div class="orb orb-cta-2"></div>
     <div class="container">
-      <p class="eyebrow">Try it now</p>
-      <h2>Chat with <span class="grad">NexoraGPT</span> — our flagship LLM.</h2>
-      <div class="chat-window">
-        <div class="msg ai"><b>NexoraGPT:</b> Hi! I'm your agentic copilot. What can I disrupt for you today? 🚀</div>
-        <div class="msg user"><b>You:</b> What does Nexora actually do?</div>
-        <div class="msg ai"><b>NexoraGPT:</b> Great question! Nexora is a vertically-integrated, horizontally-scalable, agent-orchestration mesh that abstracts complexity into delight. Want me to draft a pitch deck?</div>
-        <div class="msg user"><b>You:</b> But what does it <i>do</i>?</div>
-        <div class="msg ai"><b>NexoraGPT:</b> It empowers. It accelerates. It transforms. Have you considered booking a discovery call?</div>
-        <div class="chat-input">
-          <input type="text" placeholder="Ask NexoraGPT anything..." disabled>
-          <button onclick="alert('NexoraGPT is currently scaling. Please join the waitlist (47,000 ahead of you).')">Send</button>
-        </div>
-      </div>
+      <h2>Ready to <span class="grad">10x</span> your organization?</h2>
+      <p>Join 500,000+ operators already shipping at the speed of thought.</p>
+      <a href="#" class="cta-primary big" onclick="event.preventDefault(); alert('Sign up coming soon ✨');">Get Started Free →</a>
+      <p class="micro">No credit card. No questions. No backend, apparently.</p>
     </div>
   </section>
 
@@ -229,7 +335,7 @@
   <section class="newsletter">
     <div class="container">
       <h2>Join 200,000+ operators rethinking work.</h2>
-      <p>Weekly insights from the bleeding edge of agentic intelligence. Unsubscribe anytime (you won't want to).</p>
+      <p>Weekly insights from the bleeding edge of agentic intelligence.</p>
       <form onsubmit="event.preventDefault(); this.querySelector('input').value=''; this.querySelector('.success').style.display='block';">
         <input type="email" placeholder="founder@yourstartup.io" required>
         <button type="submit">Subscribe →</button>
@@ -248,7 +354,8 @@
       </div>
       <div>
         <h4>Product</h4>
-        <a href="#">Platform</a>
+        <a href="#features">Platform</a>
+        <a href="#pricing">Pricing</a>
         <a href="#">NexoraGPT API</a>
         <a href="#">Roadmap (Q4 2031)</a>
         <a href="#">Status (always green)</a>
@@ -256,7 +363,7 @@
       <div>
         <h4>Company</h4>
         <a href="./about">About</a>
-        <a href="#">Careers (we're hiring 12 cofounders)</a>
+        <a href="#">Careers</a>
         <a href="./suggest">Contact sales</a>
         <a href="#">Press kit</a>
       </div>
@@ -274,6 +381,56 @@
       <span>🔒 We respect your privacy (terms apply)</span>
     </div>
   </footer>
+
+  <!-- floating book a demo button -->
+  <a href="#" class="float-cta" onclick="event.preventDefault(); alert('Sign up coming soon ✨');">
+    <span>✨</span> Book a Demo
+  </a>
+
+  <script>
+    // scroll progress bar
+    document.addEventListener('scroll', () => {
+      const h = document.documentElement;
+      const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+      document.querySelector('.scroll-progress').style.width = pct + '%';
+    });
+
+    // animated stat counters
+    const animateNum = (el) => {
+      const target = parseFloat(el.dataset.target);
+      const suffix = el.dataset.suffix || '';
+      const decimals = (el.dataset.target.split('.')[1] || '').length;
+      let cur = 0;
+      const step = target / 60;
+      const tick = () => {
+        cur += step;
+        if (cur >= target) { el.textContent = target.toFixed(decimals) + suffix; return; }
+        el.textContent = cur.toFixed(decimals) + suffix;
+        requestAnimationFrame(tick);
+      };
+      tick();
+    };
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting && e.target.dataset.target && !e.target.dataset.done) {
+          e.target.dataset.done = '1';
+          animateNum(e.target);
+        }
+      });
+    }, { threshold: 0.5 });
+    document.querySelectorAll('.stat .num[data-target]').forEach(el => obs.observe(el));
+
+    // pricing toggle
+    const toggle = document.getElementById('billing-toggle');
+    if (toggle) {
+      toggle.addEventListener('change', () => {
+        document.querySelectorAll('.amt').forEach(el => {
+          const m = el.dataset.monthly, a = el.dataset.annual;
+          if (m && a) el.textContent = toggle.checked ? a : m;
+        });
+      });
+    }
+  </script>
 
 </body>
 </html>
